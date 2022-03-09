@@ -23,13 +23,23 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .place {
     grid-template-areas:
       "title"
       "website"
       "image"
       "text";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    /* grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text"; */
     row-gap: 32px;
     margin-top: 50px;
   }
