@@ -1,11 +1,9 @@
 .lead__figure {
-    margin: 0 auto;
-    width: 100%;
-  }
+  margin: 0 auto;
+}
 
-  @media screen and (max-width: 1024px) {
-    .lead__figure {
-      margin: 0;
-    }
-    
+@media screen and (max-width: 1024px) {
+  .lead__figure {
+    margin: 0;
   }
+}
