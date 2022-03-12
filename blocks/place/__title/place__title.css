@@ -19,17 +19,17 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    width: 340px;
+    max-width: 340px;
     font-size: 42px;
     line-height: 110%;
   }
 }
 
-@media screen and (max-width: 690px) {
+/* @media screen and (max-width: 690px) {
   .place__title {
     max-width: 300px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .place__title {
